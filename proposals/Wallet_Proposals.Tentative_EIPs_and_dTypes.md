@@ -6,9 +6,9 @@ Projects that lead to the compatibility of wallets and their function should be 
 
 As per [The Unicorn](../The_Ethereum_Unicorn.md), in the following, we are proposing additional functionality and data types.
 
-## Wallet as dApp Manager
+## Wallet as dApps Manager
 
-A dApp manager is not simply a start menu for dApps. It manages inter-dapp messaging, global profiles and history as well as the private keys.
+A dApps manager is not simply a start menu for dApps. It manages inter-dapp messaging, global profiles and history as well as the private keys.
 
 
 For homogeneous & compatible wallet implementations, standards need to exist for:
@@ -74,7 +74,7 @@ struct WalletAddressItem {
 `itemName` or other metadata can be optional.
 
 
-## Owned Token Selection
+#### Owned Token Selection
 
 Returning a list of tokens that the user owns.
 
@@ -95,7 +95,7 @@ struct WalletTokenItem {
 }
 ```
 
-## Frequently Used Contract Selection
+#### Frequently Used Contract Selection
 
 There are smart contracts that the user frequently interacts with. There should be an easy way to access their Ethereum address and send it as input to dApps, if needed.
 
@@ -149,9 +149,35 @@ Standard for interaction items to be determined.
 
 ## dTypes for Sensor Data
 
-- GPS: GeoPopint = uint32 latitude, uint32 longitude
+- GPS: GeoPopint = uint32 latitude, uint32 longitude ; see this demo: https://youtu.be/zcq2di8QIUE
 - NFC
 - compass
 - QR entry
 - motion (activity detection)
 - internal clock
+
+
+## Wallet as Data Persistence Layer
+
+dApps may need/want a DB backend for web2, but this is optional - dApps should not not be concerned with web2 as a default.
+
+### Universal Login for dApps
+
+The face or/and finger scan from the wallet should offer automatic login into all dApps and other wallets.
+
+### Mediated Data Access
+
+The wallet should provide the database drivers for all dApps, provide data persistence, and ensure that the data communication is secure.
+
+
+## Wallet as Wallet Manager
+
+Using the app protocol standard, a wallet1 dapp1 should be able to redirect to wallet2 and access data/history from dapp2 (or core of wallet2) that had been used on the wallet2. The result should become available in wallet1.
+We expect this feature to completely level the playfield for all wallet providers. And, therefore, it is essential to be accepted as standard by all.
+
+
+## Conclusions
+
+The integration between dApps and wallets is to be greatly improved and farther explored.
+The wallet becomes the main instrument for transforming the web3 into web2 locally (the wallet is both a server and a browser), and only the (optional) data link remains on web2 (only for the dApps that need a db backend).
+We propose a creation of a dApp/Wallet Improvement Proposals (dWIP) repo that will function much like the EIP repo for this purpose.
