@@ -45,7 +45,7 @@ Data is harvested off-chain only if it does not exist on-chain.
 
 A standard will be needed to uniquely determine Oracle data, across Oracle implementation - specifically, `Inputs for Data Harvesting`. This is an attempt to create such a standard.
 
-## List of Hopeful Collaborators
+## List of Possible Collaborators
 
 - https://chain.link/
 - http://provable.xyz/
