@@ -64,7 +64,7 @@ At creation, dApps can be assigned a unique identifier and the developer should 
 
 ## Why Remix is the Best Option
 
-### Techically:
+### Technically:
 
 - already has a permissioned plugin system
 - plugins can collaborate with one another
@@ -72,7 +72,7 @@ At creation, dApps can be assigned a unique identifier and the developer should 
 
 ### Collaboration-wise:
 
-- the team has a continous, transparent and open dialogue with plugin devs
+- the team has a continuous, transparent and open dialogue with plugin devs
 - they already collaborate with multiple projects from the ecosystem
 - at presentations, they presented the plugins as well
 
@@ -92,6 +92,6 @@ At creation, dApps can be assigned a unique identifier and the developer should 
 
 ## Conclusions
 
-Remix should ask for funding & make the strategy and the subteams that should work on this, having the above parties as possible collaborators.
+Remix should ask for funding & make the strategy and the sub-teams that should work on this, having the above parties as possible collaborators.
 
 Remix should also have a consumer app for mobiles and desktops, for final users. As a demo, look at PipEm: https://youtu.be/tR5X38uq1JY. This consumer can be an app, usable inside any wallet, or a wallet plugin.
