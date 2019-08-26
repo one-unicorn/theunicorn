@@ -80,6 +80,7 @@ At creation, dApps can be assigned a unique identifier and the developer should 
 ## Possible Interested Parties
 
 - [Remix](https://remix.ethereum.org)
+- [Superblocks](https://superblocks.com)
 - Existent Remix plugins:
     - [One Click Dapp](https://oneclickdapp.com)
     - [3Box](https://3box.io/)
