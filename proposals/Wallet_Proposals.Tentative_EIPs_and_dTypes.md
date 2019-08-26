@@ -138,13 +138,22 @@ Standard for interaction items to be determined.
 
 ### Wallet as Accumulator of Data and Profiles
 
+The intermediary data (dApps outputs, including the outputs that are not used by the intended dApp) are stored into the profile that each user has with each dApp (See Homogeneous History).
 
 ### Data Sync Between Wallets
 
-### Data Transfer Across Daps
+By implementing a common interface for data, users can sync their data between different wallets, benefiting from the additional features that each wallet provides.
+
+This includes dApp History and wallet-specific data (accounts, address book, owned tokens, frequently used contracts etc.).
+
+### Data Transfer Across dApps, Across Users
 
 - by QR
 - by URL
+
+From one user to another. You give a QRcode to another user, that contains the dApp, the permission, and a data identifier or arrays of data identifiers.
+
+The intended dApp will know how to consume the data and will delete the permission after consumption (through the wallet).
 
 
 ## dTypes for Sensor Data
