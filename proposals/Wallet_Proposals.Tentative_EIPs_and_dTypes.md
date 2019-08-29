@@ -54,46 +54,18 @@ These methods need the user's permission.
 
 #### Address Book Access
 
-Returning address book items from a wallet.
+Returning address book records from a wallet, to a dApp that has requested them, with the user's permission.
 
-JSON-RPC method: `wallet_getAddressBook(type)`
-`type` can be:
-- `0`: entire address book
-- `1`: single user-made selection
-- `2`: multiple user-made selection
-
-Returned data type is a dType - e.g. `WalletAddressItem[]`
-
-Proper structure to be determined:
-```
-struct WalletAddressItem {
-    address itemAddress;
-    string itemName;
-}
-```
-`itemName` or other metadata can be optional.
+Read technical specification: [EIP-2253](https://github.com/ethereum/EIPs/pull/2253)
+Discussions: [here](https://ethereum-magicians.org/t/eip-2253-add-wallet-getaddressbook-json-rpc-method/3592)
 
 
 #### Owned Token Selection
 
-Returning a list of tokens that the user owns.
+Returning a list of tokens that the user owns and are whitelisted in the wallet.
 
-JSON-RPC method: `wallet_getTokensList(type)`
-`type` can be:
-- `0`: entire token list
-- `1`: single user-made selection
-- `2`: multiple user-made selection
-
-Returned data type is a dType - e.g. `WalletTokenItem[]`
-
-TODO: (see token interface identifier EIPs)
-
-```
-struct WalletTokenItem {
-    address tokenAddress;
-    ? tokenInterface;
-}
-```
+Read technical specification: [EIP-2256](https://github.com/ethereum/EIPs/pull/2256)
+Discussions: [here](https://ethereum-magicians.org/t/eip-2256-add-wallet-getownedtokens-json-rpc-method/3600)
 
 #### Frequently Used Contract Selection
 
