@@ -8,3 +8,12 @@ Specs and proposals for the World Computer.
 ## Principles
 
 Read [The Ethereum Unicorn](./The_Ethereum_Unicorn.md)
+
+
+## Proposals
+
+- [Next Generation dApps](proposals/Next_Gen_dApps.md)
+- [dApp Assembly](proposals/dApp_Assembly.md)
+- [Wallet Proposals](proposals/Wallet_Proposals.Tentative_EIPs_and_dTypes.md)
+    
+- [Oracle Proposals](proposals/Proposals_for_Oracles_(EIPs,_dTypes).md)

@@ -6,24 +6,7 @@ As per our umbrella proposal for a tighter integration of the Ethereum projects 
 The next generation dApps, as first described in [Wallet Proposals. Tentative EIPs and dTypes](./Wallet_Proposals.Tentative_EIPs_and_dTypes.md), are treated as interoperable components, that can have dependencies on one another. So, in this sense, it is better than XCode.
 
 
-## Characteristics of the Next Gen dApps
-
-- target a single purpose, even though they might use multiple other dApps within that purpose
-- interoperable with other dApps through a permissioned communication system
-- content is stored on a decentralized storage system
-- dApp can be registered in a globally available registry, at creation time
-- persistence is of two types:
-  - public data - stored on-chain or in a decentralized storage system
-  - private data - user maintains ownership of that data, encrypted storage, saved on the user's device, in the wallet
-
-## Components of the Next Gen dApps
-
-- data inputs/outputs
-- functions: Javascript and on-chain EVM functions
-- dtypes (with UI)
-- processes/metafunctions will have UI components (e.g. Pipeline graphs)
-- permissions
-- dependency dApps
+First read about [the Next Gen dApps](Next_Gen_dApps.md)
 
 ## Resources Needed to build a dApp
 
