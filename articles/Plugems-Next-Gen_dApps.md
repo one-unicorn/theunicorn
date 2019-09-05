@@ -89,7 +89,7 @@ A **software plugin** interfaces only with the mother application. That's not ho
 
 A **software application** interfaces with nothing/little else - like a hermit, but we can't all be hermits.
 
-A **software library** does not have output unless used in something else. Like an organ inside an organism, which has functions or libraries of functions. But human beings are not organs - organs cannot express any independence.
+A **software library** does not have output unless used in something else. It is similar to the subset of DNA genes which encode molecules needed for a specific function in the cells of an organ. Those molecules are created/instantiated when needed by the parent process.
 
 **Databases** are impotent without verbs - they are not acting, they are just repositories of memory. The blockchain by itself is a database at core and it is not a compatible metaphor for a whole human being. Rather only for the memorization function of the brain.
 
