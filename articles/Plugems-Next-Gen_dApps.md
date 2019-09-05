@@ -95,7 +95,7 @@ A **software library** does not have output unless used in something else. It is
 
 **What we see in humans is that they all share the same data structures, the same types and the interfaces are the same.** This is why humans can fix themselves and can exchange parts of themselves, to extend their life. Their organs work under the same principles. Cells contain the same type of molecules and their membrane channels work with the same type of ions. Their DNA is composed of the same building blocks and follow the same composition principles. There are variations in the ordering and combination of these building blocks, but the same principles apply everywhere.
 
-**In society, the function of a human being can tightly depend on functions of other human beings** (a surgeon needs an anesthesiologist), in the same way, one plugem could be dependent on other plugems for its function. 
+**In society, the function of a human being can tightly depend on functions of other human beings** (a surgeon needs an anesthesiologist), in the same way, one plugem could be dependent on other plugems for its function.
 
 **There are cases where a human being does not depend so much on others.** Subsistence agriculture produces enough to live and maybe share with the local community, **but such a human does not contribute much to Humanity itself**.
 
@@ -131,12 +131,12 @@ Interactions based on the common good. Clear definitions of common values, visio
 
 **We want to see proofs of good intent:**
 
-- Data that you have the option to keep for yourself, we want to see it shared, to be used by other dApps (than yours). 
+- Data that you have the option to keep for yourself, we want to see it shared, to be used by other dApps (than yours).
 When you have new data to add to the data that was shared with you, share it with the same license and notify the originator.
 - When you have an idea for a better standard or dApp than an existing one, first go to the developers of the original one and propose improvements, instead of creating a new dApp, just slightly different than the old one.
 - When you develop new standards, do it transparently and invite other interested parties to contribute.
 - Prefer to use and improve common good, open-source projects instead of for-profit or closed source/data projects.
-- If you are a developer, contribute with your own proposal of best practices for collaboration and an upgraded moral standard. **You can start by opening issues [here](https://github.com/one-unicorn/theunicorn/issues) and we can collaborate on a best practices document for next-gen devs.**
+- If you are a developer, contribute with your own proposal of best practices for collaboration and an upgraded moral standard. **You can start by opening issues [here](https://github.com/one-unicorn/theunicorn/issues) and we can collaborate on [a best practices document for next-gen devs](../principles/Next_Gen_Devs.md).**
 
 **Let us learn how to program plugems by behaving like plugems among ourselves.**
 
